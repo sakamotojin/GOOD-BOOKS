@@ -1,0 +1,83 @@
+Lecture 1:
+
+What exactly is a System Design Interview?
+Expectations from Interviewee
+Breadth Vs Depth
+Should you know everything about everything?
+System Design Process ( Motivating Example: Design UBER.)
+Common Mistakes
+Chaotic Approach
+Systematic Approach
+Lecture 2:
+
+Trade-offs in a large scale system
+Evolution of systems
+Performance Vs Scalability
+Latency Vs Throughput
+Availability Vs Consistency(CAP Theorem)
+Lab Session: Seeing scalability happening in real via live demo.
+Lecture 3:
+
+Patterns of Enterprise Application Architecture
+MicroService Vs Monolith
+Service Discovery
+API Gateway
+Client - server communications:
+Different types and which one to use when.
+Long polling
+Sockets
+Http
+Server sent events
+Start designing first system.
+Lecture 4:
+
+Replication and Redundancy
+Achieving Availability
+Strongly versus eventual consistent systems
+Quorums
+Identify and fix availability problems with service we built in previous lecture.
+Lecture 5:
+
+Sharding or Data Partitioning
+Achieving scalability.
+Consistent Hashing
+Routing
+Identify and fix scalability problems with service we built in previous lecture.
+Lecture 6:
+
+Components of a large scale system
+Databases/Storage Layer
+SQL vs NoSQL
+How NoSQL databases work?
+Why NoSQL databases scale well?
+Practical Examples of SQL/NoSQL database usages.
+Lab Session: RDS and DynamoDb
+Lecture 7:
+
+Components of a large scale system
+Caching
+All about caching - Policies, usages etc.
+Practical examples to demonstrate use and helpfulness of cache
+CDNs
+Load balancers
+Live Demo
+Lecture 8:
+
+Components of a large scale system
+Queues and asynchronous systems
+Event driven systems
+SQS and Kafka
+Events Ordering
+Example system design using queues - Search Indexing, etc.
+Lecture 9:
+
+Serverless Architecture
+What it is?
+How to implement?
+Benefits
+Stream processing
+Lab Session for Serverless Architecture using Dynamo, Queues and Lambdas
+Lecture 10:
+
+Tips to excel in SDI.
+System design examples like netflix, etc
